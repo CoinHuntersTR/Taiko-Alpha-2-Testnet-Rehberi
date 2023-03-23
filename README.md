@@ -111,7 +111,17 @@ docker logs CONTAINER ID --follow
 
 - Girdiğimizde Web API seçiyoruz. Projeye bir isim veriyoruz. "Create" tuşuna basıyoruz.
 
+![infura-devam](https://user-images.githubusercontent.com/111747226/227228880-df89ca3f-8bc3-4faf-8413-b646280c59f7.png)
+- Açtığımız projenin içine giriyoruz. "WebSockets" bölümüne geçiyoruz. Sağ tarafta görebilirsiniz.
+- Ethereum'a geliyoruz. "mainnet" yazan yere basıyoruz. Orada "Sepolia" ağını seçiyoruz hemen yan tarafından URL adresi çıkacak bunu kopyalıyoruz. Yukarıda not olarak yazdığım yere bu URL yapıştırıyoruz.
 
+
+## Dashboard Kurulumu
+- Burada IP adresi olan yere aldığınız sunucunun IP adresini ekliyorsunuz.
+
+```
+http://IPADRESİN:3000/d/L2ExecutionEngine/l2-execution-engine-overview?orgId=1&refresh=10s
+```
 
 
 
