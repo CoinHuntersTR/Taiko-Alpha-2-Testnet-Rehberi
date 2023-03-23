@@ -76,9 +76,43 @@ Ethereum A1 için Faucetten token isteyin.
 * `L1_ENDPOINT_WS` infura sitesinden aldığımız URL ekleyeceğiz.
 * `L1_PROVER_PRIVATE_KEY`bu kısımda `Metamask private key adresini giriyoruz.
 * sonra CTRL + X + Y ile çıkıyoruz.
-![matemask-private-key](https://user-images.githubusercontent.com/111747226/214062489-2d490776-a29e-4b2d-9899-46ad5faf534b.png)
+```
+############################### DEFAULT #####################################
+# Chain ID
+CHAIN_ID=167004
 
+# Exposed ports
+PORT_L2_EXECTION_ENGINE_HTTP=8545
+PORT_L2_EXECTION_ENGINE_WS=8546
+PORT_L2_EXECTION_ENGINE_METRICS=6060
+PORT_L2_EXECTION_ENGINE_P2P=30303
+PORT_ZKEVM_CHAIN_PROVER_RPCD=9000
+PORT_PROMETHEUS=9090
+PORT_GRAFANA=3000
 
+# Comma separated L2 execution engine bootnode URLs for P2P discovery bootstrap
+BOOT_NODES=enode://af5c8bf434ad71c1713a30428f0d643be2639f550444a9630d3ce0980c0a68cdcc2a53146448021e451adc067fe50578b4955784adce25939d06ddb142954390@35.202.212.244:30303,enode://293ddcba31a117fad992b6be0ff01594>
+
+# Taiko protocol contract addresses
+TAIKO_L1_ADDRESS=0xAC9251ee97Ed8beF31706354310C6b020C35d87b
+TAIKO_L2_ADDRESS=0x0000777700000000000000000000000000000001
+
+# A L2 account private key for building throw-away L2 blocks, for more detailed information, please
+# see whitepaper's `5.5.1 Invalid Blocks`.
+L2_THROWAWAY_BLOCK_BUILDER_PRIVATE_KEY=92954368afd3caa1f3ce3ead0069c1af414054aefe1ef9aeacc1bf426222ce38 # LibAnchorSignature.K_GOLDEN_TOUCH_PRIVATEKEY
+
+############################### REQUIRED #####################################
+# L1 Sepolia RPC endpoints (you will need an RPC provider such as Alchemy or Infura--or, run a full Sepolia node yourself)
+L1_ENDPOINT_HTTP=
+L1_ENDPOINT_WS= INFURADAN aldığınız URL yazılacak
+
+############################### OPTIONAL #####################################
+# If you want to be a prover who generates and submits zero knowledge proofs of proposed L2 blocks, you need to change
+# `ENABLE_PROVER` to true and set `L1_PROVER_PRIVATE_KEY`.
+ENABLE_PROVER=true (Bu bölüm false olarak gelir true olacak)
+# An L1 account (with balance) private key which will send the TaikoL1.proveBlock transactions.
+L1_PROVER_PRIVATE_KEY=METAMASK PRIVATE KEY
+```
 
 
 ## Node'u çalıştırın:
