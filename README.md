@@ -19,7 +19,7 @@
   
 ## UYARI
 
-Taiko Node testneti ETH üzerinde ZKP ve gizlilik odaklı bir L2 çözümü, ödül ve yatırımcılar konusunda henüz bir açıklama yok. Bu nedenle kurup kurmamak size kalmış. Biz kurduğumuz için rehberini yayınlıyoruz.
+Taiko Node testneti ETH üzerinde ZKP ve gizlilik odaklı bir L2 çözümü,NODE çalıştırma 69 günlük süre ve toplam ödül 50.000$ ve yatırımcılar konusunda henüz bir açıklama yok. Bu nedenle kurup kurmamak size kalmış. Biz kurduğumuz için rehberini yayınlıyoruz.
 
 
 ## Kurulum:
