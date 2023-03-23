@@ -70,7 +70,7 @@ Ethereum A1 için Faucetten token isteyin.
 
 
 ## Yukarıdaki komutları girince açılacak ekran görselde ki gibi.
-
+* AŞAĞIDAKİ KOD PARÇASINI SAKIN TERMİNALE YAZMAYIN. SİZİNDE KARŞINIZA BEN BİR SAYFA GELECEK AŞAĞIDAKİ NOTLARA GÖRE O SAYFAYI DÜZENLEYECDEKSİNİZ!
 * Açıldıktan sonra yön tuşları ile en alta geliyoruz.
 * `ENABLE_PROVER` kısmını `true` yapıyoruz
 * `L1_ENDPOINT_WS` infura sitesinden aldığımız URL ekleyeceğiz.
